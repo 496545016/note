@@ -38,8 +38,7 @@ head: blog/img/webhead.jpg
 ## 关联 github 远程仓库
 1. 创建SSH Key
       先看看用户目录有没有.ssh目录，再看看这个目录下有没有id_rsa和id_rsa.pub这两个文件，如果有，跳过，如果没有，创建SSH Key：
-      <span style="color:#dd0055;">```$ ssh-keygen -t rsa -C "youremail@example.com"
-```</span>
+      <span style="color:#dd0055;">```$ ssh-keygen -t rsa -C "youremail@example.com"```</span>
 
 2. 给github添加SSH Key
       登陆GitHub，<span style="color:#dd0055;">```Settings```</span> -> <span style="color:#dd0055;">```SSH and GPG keys```</span> -> <span style="color:#dd0055;">```Add SSH Key```</span> ，填上任意Title，在Key文本框里粘贴id_rsa.pub文件的内容
